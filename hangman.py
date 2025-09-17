@@ -1,6 +1,7 @@
 import pygame #GUI using pygame
 import math
 import random
+import consts
 
 pygame.init()
 WIDTH, HEIGHT= 1000, 700
@@ -41,7 +42,7 @@ print(images)
 
 # game variable
 hangman=0
-lists=["GEEKS","GFG","DOCKER","DEVELOPER","RUST","GITHUB","R","PYTHON","BASH"]
+lists=consts.HANGMAN_WORDS
 words=random.choice(lists)
 guessed=[] # to track the letters we have guessed
 
