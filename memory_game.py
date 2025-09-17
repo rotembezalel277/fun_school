@@ -12,7 +12,7 @@ Exercises:
 from random import *
 from turtle import *
 
-car = 'smiley_good_job.gif'
+car = 'pictures\smiley_good_job.gif'
 tiles = list(range(32)) * 2
 state = {'mark': None}
 hide = [True] * 64
